@@ -429,6 +429,12 @@ body {
 .about_blk-column_mobile {
 	display: none;
 }
+.c-hamburger {
+	display: none;
+}
+.contacts_blk-map.mobile{
+	display: none;
+}
 @media only screen and (max-width: 1200px) {
 	.services_blk-triplet {
 	    width: 100%;
@@ -449,6 +455,10 @@ body {
 	.projects_item__photo,
 	.projects_item__photo img {
 		width: 300px;
+	}
+	.c-hamburger,
+	a.enter {
+		display: none;
 	}
 }
 @media only screen and (max-width: 760px) {
@@ -926,6 +936,12 @@ body {
 		font-size: .9rem;
 	    padding: 5%;
 	    width: 90%;
+	}
+	.contacts_blk-map {
+		display: none;
+	}
+	.contacts_blk-map.mobile {
+		display: block;
 	}
 }
 .contacts_blk-phone_icn {
