@@ -460,6 +460,12 @@ body {
 	a.enter {
 		display: none;
 	}
+	body {
+		font-size: normal;
+		overflow-x: hidden;
+		width: 100% !important;
+		text-align: left !important;
+	}
 }
 @media only screen and (max-width: 760px) {
 	body {
@@ -949,4 +955,5 @@ body {
 }
 .contacts_blk-mail {
 	background-image: url(../images/msg-icon.png);
+	color: #fff;
 }
