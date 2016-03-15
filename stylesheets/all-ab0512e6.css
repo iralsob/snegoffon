@@ -430,6 +430,9 @@ body {
 	display: none;
 }
 @media only screen and (max-width: 1200px) {
+	
+}
+@media only screen and (max-width: 760px) {
 	body {
 		font-size: normal;
 		overflow-x: hidden;
@@ -462,6 +465,7 @@ body {
 	.modal_aside p {
 		font-size: 3rem;
 		line-height: 1.2;
+		display: none;
 	}
 	.modal_aside a {
 		margin: 1rem;
