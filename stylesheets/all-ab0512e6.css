@@ -474,7 +474,7 @@ body {
 		text-align: left !important;
 	}
 }*/
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1200px) {
 	body {
 		font-size: normal;
 		overflow-x: hidden;
