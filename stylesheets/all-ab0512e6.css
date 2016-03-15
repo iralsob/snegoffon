@@ -430,7 +430,26 @@ body {
 	display: none;
 }
 @media only screen and (max-width: 1200px) {
-	
+	.services_blk-triplet {
+	    width: 100%;
+	}
+	.services_blk-container:after {
+	    display: none;
+	}
+	.projects_item {
+		margin-right: 20px;
+	}
+	.projects_item:nth-child(4n+4) {
+		margin-right: 20px;
+	}
+	.projects_item:nth-child(3n+3) {
+		margin-right: 0px;
+	}
+	.projects_item,
+	.projects_item__photo,
+	.projects_item__photo img {
+		width: 300px;
+	}
 }
 @media only screen and (max-width: 760px) {
 	body {
