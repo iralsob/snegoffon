@@ -435,7 +435,14 @@ body {
 .contacts_blk-map.mobile{
 	display: none;
 }
-@media only screen and (max-width: 1200px) and (min-width: 761px){
+.contacts_blk-phone_icn {
+    background-image: url(../images/phone-icon.png);
+}
+.contacts_blk-mail {
+	background-image: url(../images/msg-icon.png);
+	color: #fff;
+}
+/*@media only screen and (max-width: 1200px) and (min-width: 761px){
 	.services_blk-triplet {
 	    width: 100%;
 	}
@@ -466,7 +473,7 @@ body {
 		width: 100% !important;
 		text-align: left !important;
 	}
-}
+}*/
 @media only screen and (max-width: 760px) {
 	body {
 		font-size: normal;
@@ -949,11 +956,4 @@ body {
 	.contacts_blk-map.mobile {
 		display: block;
 	}
-}
-.contacts_blk-phone_icn {
-    background-image: url(../images/phone-icon.png);
-}
-.contacts_blk-mail {
-	background-image: url(../images/msg-icon.png);
-	color: #fff;
 }
