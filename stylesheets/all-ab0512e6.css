@@ -955,5 +955,6 @@ body {
 	}
 	.contacts_blk-map.mobile {
 		display: block;
+		background: url("../images/map-77e9ff6b.png");
 	}
 }
