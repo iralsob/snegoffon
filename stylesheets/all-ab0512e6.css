@@ -442,7 +442,7 @@ body {
 	background-image: url(../images/msg-icon.png);
 	color: #fff;
 }
-/*@media only screen and (max-width: 1200px) and (min-width: 761px){
+@media only screen and (max-width: 1200px) and (min-width: 731px){
 	.services_blk-triplet {
 	    width: 100%;
 	}
@@ -473,8 +473,8 @@ body {
 		width: 100% !important;
 		text-align: left !important;
 	}
-}*/
-@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 730px) {
 	body {
 		font-size: normal;
 		overflow-x: hidden;
